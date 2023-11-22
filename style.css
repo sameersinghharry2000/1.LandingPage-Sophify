@@ -187,10 +187,11 @@ body{
     text-align: center;
 }
 .container5 p{
-    width:95%;
-text-align: center;
-margin-top: 20px;
+    text-align: center;
+    margin-top: 20px;
+    text-wrap:wrap;
 }
+
 
 /* Container 6 */
 
