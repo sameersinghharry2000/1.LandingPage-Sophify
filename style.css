@@ -182,13 +182,14 @@ body{
     padding:100px 0;
 }
 .container5 h1{
-    width:80%;
-    font-size:45px;
+    width:70%;
+    /* font-size:45px; */
     text-align: center;
 }
 .container5 p{
-    margin:20px 0 0 0;
-
+    width:95%;
+text-align: center;
+margin-top: 20px;
 }
 
 /* Container 6 */
@@ -215,21 +216,25 @@ body{
     position: absolute;
 } 
 .container6 h1{
+    width:80%;
     margin:80px 0 0 0;
     color:white;
     text-wrap:wrap;
     text-align: center;
-    padding:20px ;
+    padding: 20px 20px ;
 
 }
 .container6 p{
+    width:95%;
     color:white;
     z-index:999;
     margin:15px 0 40px 0;
     text-wrap:wrap;
     text-align: center;
+    padding: 0 40px;
 }
 .container6 p:last-child{
+    max-width:600px;
     margin-bottom:100px;
 }
 .container6 input{
