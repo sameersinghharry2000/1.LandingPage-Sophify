@@ -1,13 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-}
-body{
-
 }
 
 /* Container 1 */
@@ -85,11 +81,9 @@ body{
 .container1 input::placeholder{
     color:grey;
     font-size: 14px;
-
     z-index: 999;
 }
 .container1 form{
-
     position: relative;
 }
 .container1 form button{
@@ -103,6 +97,7 @@ body{
     top:5px;
     right:5px;
 }
+
 /* Container 2 */
 
 .container2{
@@ -128,11 +123,9 @@ body{
     flex-wrap:wrap;
 }
 .container3 .box{
-    width:400px;
-
+    max-width:400px;
     margin:40px 0;
 }
-
 .container3 h2{
     margin:15px 0 ;
 }
@@ -144,7 +137,6 @@ body{
     justify-content: center;
     flex-wrap:wrap;
     background-color:#F1FFF9;
-
 }
 
 .container4 .border{
@@ -163,7 +155,6 @@ body{
     gap:5px;
     flex-wrap:wrap;
 }
-
 .container4 .border img{
     width:200px;
     margin:auto;
@@ -183,7 +174,6 @@ body{
 }
 .container5 h1{
     width:70%;
-    /* font-size:45px; */
     text-align: center;
 }
 .container5 p{
@@ -192,7 +182,6 @@ body{
     margin-top: 20px;
     text-wrap:wrap;
 }
-
 
 /* Container 6 */
 
@@ -224,7 +213,6 @@ body{
     text-wrap:wrap;
     text-align: center;
     padding: 20px 20px ;
-
 }
 .container6 p{
     width:95%;
@@ -259,7 +247,6 @@ body{
     position: relative;
     height:auto;
     width:400px;
-
 }
 .container6 form button{
     width:130px;
@@ -272,7 +259,6 @@ body{
     top:5px;
     right:5px;
 }
-
 .pic1{
     position:absolute;
     bottom:-25%;
@@ -284,6 +270,7 @@ body{
     top:-100px;
     right:0px;
 }
+
  /* Container 7 */
 
 .container7{
@@ -297,7 +284,6 @@ body{
     justify-content:baseline;
     flex-direction:column;
     align-items: center;
-    
 }
 .container7 .content{
     border-bottom:1px solid rgba(128, 128, 128, 0.123);
@@ -316,18 +302,13 @@ footer li{
     display:flex;
     justify-content:end;
     gap:10px;
-
 }
 footer a{
     color:black;
 }
 
-
 /* Responsive */
 
-@media  (max-width:900px) {
-    
-}
 @media  screen and (max-width:600px) {
     .container7 .content{
         width:90%;
@@ -369,13 +350,9 @@ footer a{
         width:auto;
         padding:0 10px; 
     }
-    .container1 input{
-
-    }
     .container1 form{
         padding:0 10px;
         width:100%;
-
     }
     .container1 form input{
         width:100%
@@ -394,11 +371,9 @@ footer a{
         width:auto;
         padding:0 10px; 
     }
-
     .container6 form{
         padding:0 10px;
         width:100%;
-
     }
     .container6 form button{
         width:90%;
