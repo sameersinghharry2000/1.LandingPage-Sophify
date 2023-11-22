@@ -187,6 +187,7 @@ body{
     text-align: center;
 }
 .container5 p{
+    width:40%;
     text-align: center;
     margin-top: 20px;
     text-wrap:wrap;
